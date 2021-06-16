@@ -1,0 +1,614 @@
+body {
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 54px;
+  color: #000;
+  background-color: #fff;
+  text-decoration-color: #ab2016;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+@media (max-width: 500px){
+  div .imgcent{
+    align-items: center !important;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+.small{
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: #000;
+}
+
+p{
+  color: #000;
+  font-weight: 500;
+}
+
+li{
+  font-weight: 500;
+}
+
+strong{
+  color: #000;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
+}
+
+.card-img{
+  height: 200px;
+}
+
+.card{
+   width: 90rem;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: #ab2016;
+}
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: #ab2016;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #d48a6e;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+.mapx{
+  width: 730px;
+  height: 435px; 
+}
+
+.hvr-forward{
+  margin-top: 50px;
+}
+
+.hvr-forward1{
+  margin-top: 50px;
+}
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+  color: #000;
+}
+
+.resume-content{
+  background-color: #fff;
+}
+
+.cent{
+  text-align: center;
+}
+
+.error{
+  color: red;
+}
+
+.success {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.hov{
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.siz{
+  width: 10%;
+  height: 10%;
+}
+
+.size{
+    width: 8.5%;
+  height: 8.5%;
+}
+
+.hov:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  overflow: hidden;
+  z-index: 100;
+}
+
+.sz{  
+  width: 7%;
+  height: 7%;
+}
+
+.sze{  
+  width: 5%;
+  height: 5%;
+}
+
+.xxx{
+  background-color: #fff;
+}
+
+.flt{
+  float: right;
+  margin-top: -300px;
+  margin-right: 200px;
+}
+
+.card-imag{
+  width: 500px;
+  height: 300px;
+}
+
+.card-ima{
+  width: 600px;
+  height: 350px;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (max-width: 900px){
+ .job-font-size{
+    font-size: 22px;
+  }
+  .sz{
+    font-size: 40px !important;
+  }
+ .hvr-forward{
+    font-size: 75px; 
+  }
+  .hvr-forward1{
+  margin-top: 0px;
+  }
+  .mapx{
+     width: 280px;
+     height: 300px;
+  }
+  .social-icons a{
+    align-items: center;
+  }
+  .rob{
+  font-size: 2.5rem !important;
+  }
+  .imgcent{
+    align-items: center !important;
+  }
+  .small{
+    font-size: 40px;
+  }
+  .card{
+   width: 18rem;
+  }
+  .siz{
+    width: 30%;
+    height: 30%;
+  }
+  .sz{
+    width: 15%;
+    height: 15%;    
+  }
+  .size{
+    width: 17%;
+    height: 17%;
+  }
+  .card-imag{
+    width: 290px;
+  }
+  .card-ima{
+    width: 287px;
+  }
+  .card-img{
+    display: none;
+  }
+  .rem{
+    display: none;
+  }
+  .flt{
+    float: left;
+    margin-top: 0px;
+    margin-right:0px; 
+    width: 300px;   
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.bg-primary {
+  background-color: #ab2016 !important;
+}
+
+.xx{
+   font-size: 30px;
+}
+
+.text-primary {
+  color: #ab2016 !important;
+}
+
+.hvr-hang{
+  background-color: #fff;
+}
+
+.xx{
+  background-color: #fff;
+}
+
+a {
+  color: #ab2016;
+}
+
+a:hover, a:focus, a:active {
+  color: #824027;
+}
+
+#feedback-page{
+  text-align:center;
+}
+
+#text-feedback{
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color:#fff;
+  text-align:center;
+}
+
+#form-main{
+  width:100%;
+  float:left;
+  padding-top:30px;
+}
+
+#form-div {
+  background-color:#3c3c3c;
+  padding-left:35px;
+  padding-right:35px;
+  padding-top:35px;
+  padding-bottom:50px;
+  width: 450px;
+  float: left;
+  left: 50%;
+  position: absolute;
+  margin-left: -260px;
+}
+
+.feedback-input {
+  opacity:0.9;
+  color:#0493bd;
+  font-weight:400;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  border: 3px solid #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width:100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.feedback-input:focus{
+  background: #fff;
+  box-shadow: 0;
+  border: 3px solid #ab2016;
+  color: #ab2016;
+  outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+  color:#30aed6;
+  border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#name:focus{
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-size: 30px 30px;
+  background-position: 8px 5px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email{
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email:focus{
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#comment{
+  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  line-height: 150%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+  background-color:white;
+}
+
+#button-blue{
+  float:left;
+  width: 100%;
+  border: #fbfbfb solid 4px;
+  cursor:pointer;
+  background-color: #ab2016;
+  color:white;
+  font-size:24px;
+  padding-top:22px;
+  padding-bottom:22px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#button-blue:hover{
+  background-color: rgba(0,0,0,0);
+  color: #ab2016;
+}
+  
+.submit:hover {
+  color: #ab2016;
+}
+  
+.ease {
+  border-top:3px #3c3c3c solid;
+  width: 0px;
+  height: 76px;
+  background-color: #fbfbfb;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  -ms-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+  #form-div{
+    left: 3%;
+    margin-right: 3%;
+    width: 88%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  #button-blue{
+    height: 60px;
+    padding-top:8px;
+  }
+}
+
+#slider,
+.wrap,
+.slide-content {
+  width: 500px;
+  height: 300px;
+  overflow-x: hidden;
+}
+
+.wrap {
+  position: relative;
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide-content span {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#arrow-left {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #000 transparent transparent;
+  left: 0;
+  margin-left: 30px;
+}
+
+#arrow-right {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #000;
+  right: 0;
+  margin-right: 30px;
+}
+
+@media (max-width: 574px) {
+  #slider,
+  .wrap,
+  .slide-content {
+    width: 100%;
+  }
+}
