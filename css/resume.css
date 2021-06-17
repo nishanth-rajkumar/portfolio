@@ -612,3 +612,63 @@ input:focus, textarea:focus {
     width: 100%;
   }
 }
+
+.slidea {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#arrow-lefta {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #000 transparent transparent;
+  left: 0;
+  margin-left: 30px;
+}
+
+#arrow-righta {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #000;
+  right: 0;
+  margin-right: 30px;
+}
+
+.slideb {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#arrow-leftb {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #000 transparent transparent;
+  left: 0;
+  margin-left: 30px;
+}
+
+#arrow-rightb {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #000;
+  right: 0;
+  margin-right: 30px;
+}
+
+.slidec {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#arrow-leftc {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #000 transparent transparent;
+  left: 0;
+  margin-left: 30px;
+}
+
+#arrow-rightc {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #000;
+  right: 0;
+  margin-right: 30px;
+}
